@@ -5,7 +5,7 @@ const PresentationSection = () => {
     <>
       <div className='flex flex-col justify-center items-center text-center'>
         <div>
-            <img src={image} alt="astro" className='m-auto my-4 w-2/3 rounded-full' />
+            <img src={image} alt="astro" className='m-auto my-4 object-cover w-48 h-48 rounded-full' />
         </div>
         <div className='mt-4'>
           <h1 className='font-poppins text-white font-bold text-4xl uppercase tracking-tight'><strong className="text-indigo-500 font-extrabold font-roboto-mono">&gt; </strong>Uriel Ortiz</h1>
